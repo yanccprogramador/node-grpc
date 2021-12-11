@@ -1,0 +1,12 @@
+{
+  "name": "node-grpc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.4.4",
+    "@grpc/proto-loader": "^0.6.7"
+  }
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package TestStore;
+
+option php_namespace = "App\\Services\\TestStore";
+
+service TestStore {
+  rpc ReturnFoo(TesteRequest) returns (TesteResponse) {}
+}
+message TesteRequest {
+}
+
+message TesteResponse {
+    string foo = 1;
+}
+
